@@ -1,9 +1,13 @@
 spec_version: "0.1.0"
-name: clearsight-defense-trainer
-version: 2.0.0
-description: "An AI consumer-defense game that teaches people to spot and defuse dark patterns in the wild."
+name: clearsight-cipher
+version: 0.1.0
+description: "Cyber-espionage agent specializing in Dark Pattern interception and neutralization."
 model:
-  preferred: claude-sonnet-4-5-20250929
+  preferred: google:gemini-2.5-flash
 skills:
   - analyze-trap
   - generate-mission
+tags:
+  - hackathon
+  - security
+  - ux

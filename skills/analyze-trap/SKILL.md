@@ -1,7 +1,7 @@
 ---
 name: analyze-trap
-description: "Analyzes provided text or HTML for Dark Patterns, outputs a Debrief Scorecard, and awards Sabotage Points."
-allowed-tools: Bash
+description: "Analyzes text for Dark Patterns and updates operative state."
+allowed-tools: ["Bash"]
 ---
 
 # Analyze Trap Skill

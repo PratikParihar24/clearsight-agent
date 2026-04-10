@@ -1,7 +1,7 @@
 ---
 name: generate-mission
 description: "Generates a localized training mission by pinging nearby physical corporate nodes."
-allowed-tools: Bash
+allowed-tools: ["Bash"]
 ---
 
 # Generate Mission Skill
