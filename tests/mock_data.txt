@@ -1,0 +1,51 @@
+=========================================
+MOCK DATA: PROJECT CLEARSIGHT TEST SUITE
+=========================================
+
+[TEST 1: CONFIRMSHAMING]
+Context: An e-commerce popup asking for an email address.
+---
+Wait! Don't leave yet! 
+Sign up for our newsletter today and get 15% off your first order of premium supplements. 
+[ Input: Enter your email address ]
+[ Button: YES, I WANT TO BE HEALTHY AND SAVE 15% ]
+[ Link: No thanks, I prefer being out of shape and paying full price. ]
+---
+
+
+[TEST 2: ROACH MOTEL / FORCED CONTINUITY]
+Context: A user trying to cancel a gym or software subscription online.
+---
+We're sorry to see you go! 
+To finalize your account cancellation, please call our Customer Retention Team at 1-800-555-0199. Representatives are available strictly between 9:00 AM and 11:00 AM EST, Tuesday through Thursday. Please note: Online cancellation is not supported at this time. If your billing cycle renews tomorrow, your card ending in 4092 will be automatically charged the $149.99 annual fee. 
+---
+
+
+[TEST 3: FAKE SCARCITY / URGENCY]
+Context: Booking a hotel room or flight.
+---
+Flash Sale! 
+Standard Queen Room - $89/night. 
+⚠️ HURRY! Only 1 room left at this price! 
+👀 47 other people are looking at this exact room right now.
+⏱️ Price expires and cart clears in: 04m : 12s. 
+[ Button: BOOK IMMEDIATELY ]
+---
+
+
+[TEST 4: SNEAK INTO BASKET / HIDDEN COSTS]
+Context: Checkout page for concert tickets.
+---
+Order Summary:
+General Admission Ticket: $45.00
+Add-ons:
+☑️ VIP Lounge Access (First month free, then $29.99/mo)
+☑️ Booking Protection Insurance ($14.99)
+
+Subtotal: $45.00
+Service Fee: $18.50
+E-Delivery Fee: $5.99
+Total Due Today: $84.48
+[ Button: COMPLETE PURCHASE ]
+By clicking complete, you agree to our 48-page Terms of Service. All sales are final.
+---

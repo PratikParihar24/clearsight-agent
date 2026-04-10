@@ -1,0 +1,9 @@
+spec_version: "0.1.0"
+name: clearsight-defense-trainer
+version: 2.0.0
+description: "An AI consumer-defense game that teaches people to spot and defuse dark patterns in the wild."
+model:
+  preferred: claude-sonnet-4-5-20250929
+skills:
+  - analyze-trap
+  - generate-mission
