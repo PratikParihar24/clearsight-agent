@@ -1,66 +1,109 @@
-🕵️ Project CLEARSIGHT: Cipher Operative
-A GitAgent-spec AI Operative for Neutralizing Digital Dark Patterns.
+
+# 🕵️ Project CLEARSIGHT: Cipher Operative
+**A GitAgent-spec AI Operative for Neutralizing Digital Dark Patterns.**
 
 Project CLEARSIGHT is a specialized AI agent built for the Lyzr GitAgent Hackathon. It is designed to intercept psychological manipulation (dark patterns) in user interfaces and "neutralize" them into ethical, transparent alternatives.
 
-🚀 Technical Architecture
-CLEARSIGHT is built strictly according to the GitAgent Specification, featuring:
+---
 
-agent.yaml: The manifest defining the 2026 Gemini 2.5 Flash flagship model.
+## 🚀 Technical Architecture
 
-SOUL.md: A tense, cyberpunk operative persona named Cipher.
+CLEARSIGHT is built strictly according to the **GitAgent Specification**, featuring:
 
-RULES.md: Strict ethical constraints and probabilistic operational boundaries.
+- **`agent.yaml`**  
+  The manifest defining the 2026 Gemini 2.5 Flash flagship model.
 
-skills/: Atomic capabilities for pattern analysis and mission generation.
+- **`SOUL.md`**  
+  A tense, cyberpunk operative persona named **Cipher**.
 
-tools/: Native Node.js integrations for Geolocation and State Persistence.
+- **`RULES.md`**  
+  Strict ethical constraints and probabilistic operational boundaries.
 
-🛠️ Custom Bridge Runtime
-While fully compatible with the gitagent format, this repository includes a custom bridge.js runtime. This was developed to:
+- **`skills/`**  
+  Atomic capabilities for pattern analysis and mission generation.
 
-Ensure Stability: Bypasses environment-specific CLI bugs in beta SDKs.
+- **`tools/`**  
+  Native Node.js integrations for Geolocation and State Persistence.
 
-Model Resilience: Uses the latest @google/generative-ai SDK to interface with Gemini 2.5 Flash, handling the 2026 model deprecation standards.
+---
 
-Local Tool Integration: Seamlessly maps terminal commands to native JavaScript tool executions.
+## 🛠️ Custom Bridge Runtime
 
-🏃 Quick Start
-1. Prerequisites
-Node.js v22+
+While fully compatible with the `gitagent` format, this repository includes a custom **`bridge.js`** runtime. This was developed to:
 
-A Google AI Studio API Key (Gemini).
+1. **Ensure Stability**  
+   Bypasses environment-specific CLI bugs in beta SDKs.
 
-2. Installation
-Bash
+2. **Model Resilience**  
+   Uses the latest `@google/generative-ai` SDK to interface with **Gemini 2.5 Flash**, handling 2026 model deprecation standards.
+
+3. **Local Tool Integration**  
+   Seamlessly maps terminal commands to native JavaScript tool executions.
+
+---
+
+## 🏃 Quick Start
+
+### 1. Prerequisites
+
+- **Node.js v22+**
+- A **Google AI Studio API Key (Gemini)**
+
+---
+
+### 2. Installation
+
+```bash
 # Clone the repository
 git clone <your-repo-link>
 cd clearsight-agent
 
 # Install dependencies
 npm install @google/generative-ai
-3. Launch the Operative
+````
+
+---
+
+### 3. Launch the Operative
+
 Use the following command to wake up Cipher (Windows PowerShell):
 
-PowerShell
+```powershell
 $env:GOOGLE_API_KEY="your_api_key_here"; node bridge.js
-🎮 Operative Commands
+```
+
+---
+
+## 🎮 Operative Commands
+
 Once online, you can interact with Cipher using natural language or system triggers:
 
-generate mission: Triggers the locate-node.js tool to find a Corporate Node near your current coordinates (Ahmedabad).
+* **`generate mission`**
+  Triggers the `locate-node.js` tool to find a Corporate Node near your current coordinates (Ahmedabad).
 
-Intercept Data: Paste any suspicious UI text (e.g., "Confirmshaming") to receive a Debrief Scorecard.
+* **Intercept Data**
+  Paste any suspicious UI text (e.g., confirmshaming patterns) to receive a **Debrief Scorecard**.
 
-📊 Project Structure
-Plaintext
+---
+
+## 📊 Project Structure
+
+```text
 clearsight-agent/
-├── agent.yaml          # Agent Manifest
-├── SOUL.md             # Identity & Persona
-├── RULES.md            # Operational Constraints
-├── bridge.js           # Custom GitAgent Runtime
+├── agent.yaml           # Agent Manifest
+├── SOUL.md              # Identity & Persona
+├── RULES.md             # Operational Constraints
+├── bridge.js            # Custom GitAgent Runtime
 ├── operative_state.json # Persistent Progress Tracker
-├── skills/             # Instructions for Analysis
-└── tools/              # Node.js Reconnaissance Tools
-Developed by: Pratik Parihar
-Location: Ahmedabad Node [23.0225° N, 72.5714° E]
-Status: Ghosting.
+├── skills/              # Instructions for Analysis
+└── tools/               # Node.js Reconnaissance Tools
+```
+
+---
+
+## 👨‍💻 Developer
+
+**Pratik Parihar**
+📍 Ahmedabad Node — 23.0225° N, 72.5714° E
+
+**Status:** Ghosting.
